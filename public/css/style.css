@@ -1,0 +1,280 @@
+/* poppins italic is missing */
+/* poppins semibold is missing */
+
+@font-face {
+  font-family: 'Oswald-Medium';
+  src: url('fonts/Oswald-Medium.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Oswald-Medium.woff') format('woff'),
+    url('fonts/Oswald-Medium.ttf') format('truetype'),
+    url('fonts/Oswald-Medium.svg#Oswald-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Oswald-Bold';
+  src: url('fonts/Oswald-Bold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Oswald-Bold.woff') format('woff'),
+    url('fonts/Oswald-Bold.ttf') format('truetype'),
+    url('fonts/Oswald-Bold.svg#Oswald-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('fonts/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Poppins-Bold.woff') format('woff'),
+    url('fonts/Poppins-Bold.ttf') format('truetype'),
+    url('fonts/Poppins-Bold.svg#Poppins-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins-Medium';
+  src: url('fonts/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Poppins-Medium.woff') format('woff'),
+    url('fonts/Poppins-Medium.ttf') format('truetype'),
+    url('fonts/Poppins-Medium.svg#Poppins-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins-Light';
+  src: url('fonts/Poppins-Light.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Poppins-Light.woff') format('woff'),
+    url('fonts/Poppins-Light.ttf') format('truetype'),
+    url('fonts/Poppins-Light.svg#Poppins-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Poppins-Regular.woff') format('woff'),
+    url('fonts/Poppins-Regular.ttf') format('truetype'),
+    url('fonts/Poppins-Regular.svg#Poppins-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+footer{
+  clear: both;
+}
+.blog {
+  position: absolute;
+  top: 120px;
+  font-size: 50px;
+}
+.blog_nav {
+  margin-top: 5px;
+}
+.blog_nav > * {
+  color: #fff;
+  font-size: 15px;
+}
+.blog_nav > a:hover {
+  text-decoration: none;
+}
+.home_link:hover {
+  color: #fff;
+}
+
+.blog_1,
+.blog_2,
+.blog_3 {
+  color: #000;
+  background-color: #ececec;
+  padding: 10px;
+  margin-bottom: 30px;
+  float: left;
+}
+.blog_2,
+.blog_3 {
+  margin-top: 80px;
+}
+.blog_active,
+.blog_active:hover {
+  color: #f13f3f;
+}
+.arrow {
+  margin: 0 5px;
+  font-size: 10px;
+}
+
+.left_main {
+  padding: 0;
+  float: left;
+  margin-top: 100px;
+}
+.blogpic {
+  width: 100%;
+}
+
+.blog_title {
+  font-size: 23px;
+  margin-top: 20px;
+  margin-left: 5px;
+  font-family: 'Poppins-Bold';
+}
+.blog_title a {
+color: #002b53;
+  font-family: arial;
+}
+.blog_para {
+  margin-left: 5px;
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: justify;
+  font-family: arial;
+}
+.read-more{
+  float: right;
+}
+
+.date {
+  font-size: 14px;
+  margin-bottom: 18px;
+  display: inline-block;
+  margin-left: 5px;
+  color: #5e5e5e;
+  float: left;
+}
+.blog_author {
+  color: #000;
+  font-family: arial;
+}
+.pagination {
+  margin-top: 40px;
+}
+.pagination > a {
+  color: #fff;
+  padding: 10px 15px;
+  background-color: #2b2b2b;
+  margin: 0px 5px;
+  font-size: 14px;
+}
+.pagination > a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.pagination .active {
+  background: #f13f3f;
+}
+
+.right_main {
+  /* padding: 0; */
+  float: left;
+  margin-top: 100px;
+  padding-left: 60px;
+}
+
+.s_section {
+  padding: 30px 0px 50px 0px;
+  border-bottom: 1px solid #717171;
+}
+
+.search {
+  color: #000;
+  font-size: 24px;
+  width: 100%;
+  font-family: 'Poppins-Bold';
+}
+.search_icon {
+  color: #fff;
+  background-color: #f13f3f;
+  padding: 3px 15px;
+}
+.search_icon i {
+  margin-top: 11px;
+}
+
+.input {
+  padding: 20px 0p 20px 10px;
+}
+.s_archive {
+  float: left;
+  padding: 30px 0px 50px 0px;
+  border-bottom: 1px solid #717171;
+}
+.txt_archives {
+  color: #000;
+  font-size: 24px;
+  float: left;
+  margin-bottom: 20px;
+  font-family: 'Poppins-Bold';
+}
+.archive_date {
+  color: #e33d3d;
+  font-size: 18px;
+  font-family: 'Poppins-Regular';
+}
+.a_arrow {
+  color: #000;
+  font-size: 16px;
+}
+.archive_item {
+  width: 40%;
+  float: left;
+}
+.blog_post {
+  float: left;
+  width: 100%;
+  padding: 40px 0px;
+  border-bottom: 1px solid #717171;
+}
+.txt_blogpost {
+  color: #000;
+  font-size: 24px;
+  float: left;
+  width: 100%;
+  font-family: 'Poppins-Bold';
+}
+.blog_link {
+  color: #e33d3d;
+  font-size: 18px;
+  float: left;
+  width: 100%;
+  margin: 20px 0px 10px 0px;
+  font-family: 'Poppins-Regular';
+}
+.blog_link:hover {
+  color: #e33d3d;
+  text-decoration: none;
+}
+.post_date {
+  color: #606060;
+  font-size: 16px;
+}
+
+.categories {
+  color: #000;
+  font-size: 24px;
+  float: left;
+  margin-top: 32px;
+}
+.txt_categories {
+  margin-bottom: 20px;
+  float: left;
+  width: 100%;
+  font-family: 'Poppins-Bold';
+}
+.pull-right{
+  float: right;
+}
+.category_link {
+  color: #e33d3d;
+  font-size: 18px;
+  font-family: 'Poppins-Regular';
+}
+
+.category_link:hover {
+  color: #e33d3d;
+  text-decoration: none;
+}
+@media (max-width: 576px) {
+  .left_main{padding-left: 15px;
+    padding-right: 15px;}
+  .blog_title a{
+    font-size: 18px;}
+}
